@@ -1,0 +1,19 @@
+{
+  "name": "lesson5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lite": "lite-server",
+    "tsc:w": "tsc -w",
+    "start": "concurrently \"npm run lite\" \"npm run tsc:w\" " },
+  "keywords": [],
+  "author": "Ann Wang",
+  "license": "MIT",
+  "private" : true,
+  "devDependencies": {
+    "concurrently": "^3.4.0",
+    "lite-server": "^2.2.2"
+  }
+}
+
