@@ -1,6 +1,9 @@
 {
-    "injectChanges":true,
-    "port":8000,
-    "files":"./src/**/*.{js,html,css}",
-    "server": {"baseDir": "./src"}
+    "port": 8000,
+    "files": [
+        "./src/**/*.{js,html,css}"
+    ],
+    "server": {
+        "baseDir": "./src"
+    }
 }

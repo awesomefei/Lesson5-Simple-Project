@@ -48,7 +48,6 @@ splitWordBtn.addEventListener('click', ()=>{
 //points.
 sortAlphabeticallyBtn.addEventListener('click', ()=>{
    display1.innerText = result.sort().join('\n');
-
 });
 sortWithoutCaseBtn.addEventListener('click',()=>{
     display4.innerText = result.sort(compareWithoutCase).join('\n');
